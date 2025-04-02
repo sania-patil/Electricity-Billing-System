@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Billing System</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f7f7f7;
+            font-family: Arial, sans-serif;
+        }
+        .splash {
+            font-size: 24px;
+            font-weight: bold;
+            animation: fadeOut 3s forwards;
+        }
+        @keyframes fadeOut {
+            0% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="splash">Welcome to Electricity Billing System</div>
+    <script>
+        setTimeout(() => {
+            window.location.href = "index.php";
+        }, 3000);
+    </script>
+</body>
+</html>
